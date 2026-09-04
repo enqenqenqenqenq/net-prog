@@ -1,0 +1,54 @@
+## Visual Studio / JetBrains Rider / VS Code
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build artifacts & binaries
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+TestResults/
+*.cache
+*.pdb
+*.dll
+*.exe
+
+## Network capture & logs
+*.pcap
+*.pcapng
+*.log
+
+## OS & temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+## AI & local assignment inputs (never commit or push to remote)
+_tasks/
+_raw/
+_prompts/
+**/_tasks/
+**/_raw/
+**/_prompts/
+*.prompt
+*.prompt.md
+## AI system prompts & agent instructions (never commit to git)
+AGENTS.md
+GEMINI.md
+.agents/
+.agent/
+.cursorrules
+## Local defense notes & cheatsheets (hidden from git & teachers)
+_defense.md
+*_defense.md
+_cheatsheet.md
+_*.md
